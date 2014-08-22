@@ -6,6 +6,9 @@
 - configurar nginx em outro host para servir a partir do memcached
 - configurar nginx em outro host para servir a partir do php com sqlite
 
+# INFO
+
+642.964 ceps na base de dados do republica virtual.
 
 ### CEP
 curl --data "Cep=87033420" https://carrinho.ricardoeletro.com.br/Cliente/EnderecoCep
@@ -27,3 +30,8 @@ possui o prefixo de 3 dígitos do cep e a quantidade dentro do diretório.
 
 ### cep.tar.bz2
 expandido vai para um tar de 658.8MB e um diretório com 860 pastas, 2.63GB de arquivos json
+
+# sqlite
+
+Para importar para sqlite, precisa remover os comentários do arquivo sql e substituir \' por ''
+pois esta é a maneira de fazer quote de aspas.

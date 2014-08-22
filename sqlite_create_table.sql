@@ -1,0 +1,8 @@
+CREATE TABLE cep (
+  cep INTEGER PRIMARY KEY,
+  uf COLLATE NOCASE,
+  cidade COLLATE NOCASE,
+  logradouro COLLATE NOCASE,
+  tipo_logradouro COLLATE NOCASE,
+  bairro COLLATE NOCASE
+);
